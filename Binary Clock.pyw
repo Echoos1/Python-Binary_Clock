@@ -5,6 +5,7 @@ from tkinter import *
 root = Tk()
 root.title("Binary Clock")
 root.geometry("164x264")
+root.iconbitmap(default='icon.ico')
 root.resizable(0, 1)
 root.wait_visibility(root)
 
